@@ -11,5 +11,7 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end
-  
+
+  get '/search' => 'travel#search'
+  get '/travel' => 'travel#travel'
 end
