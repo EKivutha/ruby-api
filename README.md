@@ -1,26 +1,19 @@
-# README
+# Travel Planner 
+# INTRODUCTION
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project ia a ruby introduction to a full backend layout with ruby html. The problem solution is to help people vlog and plan trips using weather info from a RAPIDApi endpoint. I hope to improve the search query.
 
-Things you may want to cover:
 
-* Ruby version
+## RUN 
+- Ensure you have ruby installed
+- Install sqlite3
 
-* System dependencies
+- Install rails ``` gem install rails```
 
-* Configuration
+- cd into project directory
 
-* Database creation
+- Run  ``` rails server  ``` to start the project
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-route, controller with  action
+- If you prefer docker run 
+    ``` docker build -t travel-agency . ```
+    ``` docker run -it -p 3000:3000 travel-agency  ```
